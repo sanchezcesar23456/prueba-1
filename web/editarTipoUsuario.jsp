@@ -15,7 +15,7 @@
     <body>
         <%
          conexion cn= new conexion();
-         String txtTipo=request.getParameter("txtTipo");
+         String txtTipo=request.getParameter("txttipo");
          String txtDescripcion=request.getParameter("txtDescripcion");
          String id=request.getParameter("hdnID");
            
